@@ -1,0 +1,8 @@
+/*--- Main */
+main {
+    flex-direction: column;
+}
+
+.receita {
+    width: 95vw;
+}

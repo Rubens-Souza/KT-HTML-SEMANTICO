@@ -1,3 +1,5 @@
+/* --- General */
+
 body, html {
     height: 100%;
     padding: 0 0;
@@ -20,7 +22,6 @@ h2 {
 }
 
 p, a, li {
-    font-size: 1em;
     font-size: 0.95em;
     color: #1F1F1F;
     font-family: 'Oxygen', sans-serif;
@@ -81,15 +82,19 @@ header {
 /* --- Main Content */
 
 main {
-    padding: 3% 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
     background-image: url("../Images/Backgrounds/Pattern.png");
 }
 
 .receita {
+    margin: 2% 1%;
     background-color: #fefefe;
     border-radius: 10px;
     padding-bottom: 2%;
-    min-width: 50vw;
+    min-width: 47vw ;
     width: min-content;
 }
 
@@ -202,4 +207,52 @@ main {
 
 .regiao-instrucoes > ol > li:first-of-type {
     margin-top: 1%;
+}
+
+/* --- Footer */
+
+footer {
+    background-color: #363636;
+    padding: 1em 0%;
+}
+
+footer > section > h2 {
+    background-color: #1F1F1F;
+    text-align: center;
+    color: #B9D8FA;
+    letter-spacing: 0.3em;
+    font-size: 1.3em;
+    padding: 1% 0;
+    margin-bottom: 0.8em;
+}
+
+#social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-media-links > a {
+    background-color: #5F5F5F;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    max-width: 1.7em;
+    width: 8vw;
+    padding: 0.5em 0.5em;
+    border-radius: 50%;
+}
+
+#social-media-links > img {
+    display: inline-block;
+    max-width: 0.8em;
+    max-height: 0.8em;
+    height: 1.5vw;
+    width: 1.5vw;
+    margin: 0% 2%;
+}
+
+#social-media-links .social-media-icon {
+    width: 100%;
 }

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500&family=Oxygen:wght@300;400;700&family=Rasa:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/receitas.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" media="screen and (max-width: 815px)" href="CSS/receitas-phone.css">
     <title>Receitas</title>
 </head>
 <body>
@@ -13,7 +15,7 @@
         <nav id="main-navigation">
             <ul>
                 <li><a href="">HOME</a></li>
-                <li><a href="">RECEITAS</a></li>
+                <li><a href="receitas.html">RECEITAS</a></li>
             </ul>
         </nav>
     </header>
@@ -56,9 +58,61 @@
                 </ol>
             </section>
         </article>
+
+        <article class="receita">
+            <div class="titulo-receita">
+                <h1>Torta Alemã</h1>
+                <div class="feedback">
+                    <div class="like"><img src="Images/Icons/Buttons/Like.png" alt="Gostei"></div>
+                    <button class="dislike"><img src="Images/Icons/Buttons/Dislike.png" alt="Não Gostei"></button>
+                </div>
+            </div>
+            <div class="foto-comida">
+                <img src="Images/Foods/Torta-Alema.jpg" alt="">
+            </div>
+
+            <section class="regiao-ingredientes">
+                <h2>INGREDIENTES</h2>
+                <ul>
+                    <li>200 g de manteiga sem sal</li>
+                    <li>1 xícara (chá) de açúcar</li>
+                    <li>1 lata de creme de leite sem soro</li>
+                    <li>1 pacote de biscoito maisena</li>
+                    <li>leite para molhar a biscoito</li>
+                    <li>1 lata de leite condensado de chocolate</li>
+                </ul>
+            </section>
+            <section class="regiao-instrucoes">
+                <h2>INSTRUÇÕES</h2>
+                <ol>
+                    <li>Coloque a manteiga e o açúcar na batedeira e bata até obter um creme bem fofo e liso.</li>
+                    <li>Acrescente o creme de leite e bata rapidamente apenas para misturar.</li>
+                    <li>Desligue a batedeira e reserve.</li>
+                    <li>Separe um recipiente médio para montar o doce.</li>
+                    <li>Acrescente um pouco de leite num prato fundo e molhe rapidamente algumas biscoitos maisena no leite.</li>
+                    <li>Forre o fundo do recipiente escolhido com uma camada de biscoitos.</li>
+                    <li>Acrescente uma camada do creme reservado sobre as biscoitos.</li>
+                    <li>Acrescente mais uma camada de biscoitos molhadas no leite e repita o procedimento finalizando com a bolacha.</li>
+                    <li>Cubra a última camada de biscoitos com o leite condensado sabor chocolate (comprado pronto ou a cobertura).</li>
+                    <li>Leve à geladeira por no mínimo 3 horas ou até que o doce fique bem gelado.</li>
+                    <li>Retire o doce da geladeira e sirva a seguir.</li> 
+                </ol>
+            </section>
+        </article>
     </main>
     <footer>
-
+        <section>
+            <h2>REDES SOCIAIS</h2>
+            <div id="social-media-links">
+                <a href="#"><img class="social-media-icon" src="Images/Icons/Social/Pinterest.png" alt="Logo da rede social Pinterest"></a>
+                <img class="dot" src="Images/Icons/Other/footer-dot.png" aria-hidden="true">
+                <a href="#"><img class="social-media-icon" src="Images/Icons/Social/Reddit.png" alt="Logo da rede social Reddit"></a>
+                <img class="dot" src="Images/Icons/Other/footer-dot.png" aria-hidden="true">
+                <a href="#"><img class="social-media-icon" src="Images/Icons/Social/Twitter.png" alt="Logo da rede social Twitter"></a>
+                <img class="dot" src="Images/Icons/Other/footer-dot.png" aria-hidden="true">
+                <a href="#"><img class="social-media-icon" src="Images/Icons/Social/Youtube.png" alt="Logo da rede social Youtube"></a>
+            </div>
+        </section>
     </footer>
 </body>
 </html>
